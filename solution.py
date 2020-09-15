@@ -24,7 +24,7 @@ p = 0
 
 if args.Sleep_hours == 7 or args.Sleep_hours == 8:
     p += 1
-if args.Meals >= 4:
+if 3 < args.Meals < 6:
     p += 1
 if args.Steps > 10000:
     p += 1
